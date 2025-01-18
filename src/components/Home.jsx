@@ -169,7 +169,7 @@ const Home = () => {
           >
             About Me
           </button>
-          <img src={img1} className='absolute bottom-0 z-1 w-[150px] md:w-[200px] md:left-[calc(50vw-8px)] left-[50vw] translate-x-[-50%]' />
+          <img src={img1} className='absolute bottom-0 z-1 w-[150px] md:w-[200px] md:left-50vw left-[50vw] translate-x-[-50%]' />
         </div>
         <div
           ref={imgRef}
@@ -201,7 +201,7 @@ const Home = () => {
           >
             About Me
           </button>
-          <img src={img2} className='absolute bottom-0 z-1 w-[151px] md:w-[202px] md:right-[calc(50vw-8px)] right-[50vw] translate-x-1/2' />
+          <img src={img2} className='absolute bottom-0 z-1 w-[151px] md:w-[202px] md:right-50vw right-[50vw] translate-x-1/2' />
         </div>
       </section>
 
